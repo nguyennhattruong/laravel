@@ -1,0 +1,14 @@
+{
+  "position_template": {
+    "header_left": "header_left",
+    "header_right": "header_right",
+    "body": "body",
+    "category_page": "category_page",
+    "content_page": "content_page",
+    "apartment_detail": "apartment_detail",
+    "apartment_type": "apartment_type",
+    "apartment_location_detail": "apartment_location_detail",
+    "footer": "footer",
+    "page": "page"
+  }
+}

@@ -1,0 +1,1 @@
+<a class="btn btn-danger" href="{{ route(@$route) }}"><i class="fa fa-times"></i> Hủy</a>

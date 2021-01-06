@@ -1,0 +1,1 @@
+<a class="btn btn-secondary color-white" href="{{ route(@$route) }}"><i class="fa fa-refresh"></i> Làm mới</a>

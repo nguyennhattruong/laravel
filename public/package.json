@@ -1,0 +1,27 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "description": "Yarn",
+  "main": "index.js",
+  "author": "nhat_truong",
+  "license": "MIT",
+  "dependencies": {
+    "@zeitiger/elevatezoom": "^2.5.4",
+    "animate.css": "^3.6.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-select": "^1.13.1",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "font-awesome": "^4.7.0",
+    "hover.css": "^2.3.2",
+    "jquery": "^3.2.1",
+    "jquery-ui-dist": "^1.12.1",
+    "jquery.scrollbar": "^0.2.11",
+    "owl.carousel2": "^2.2.1",
+    "slick-carousel": "^1.8.1",
+    "superfish": "^1.7.10",
+    "sweetalert": "^2.1.0",
+    "syntax-highlighter": "^0.0.3",
+    "toastr": "^2.1.4",
+    "wowjs": "^1.1.3"
+  }
+}

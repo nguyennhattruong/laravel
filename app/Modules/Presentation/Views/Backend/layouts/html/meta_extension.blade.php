@@ -1,0 +1,2 @@
+{{-- Hold content on 1 line --}}
+<tr> <td> <a class="btn btn-danger color-white btn-delete"><i class="fa fa-trash-o"></i></a> </td> <td width="25%"> <input name="metaKey[]" class="form-control" value="{{ @$key }}"> </td> <td width="75%"> <input name="metaContent[]" class="form-control" value="{{ @$value }}"> </td></tr>

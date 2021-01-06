@@ -1,0 +1,341 @@
+html {
+    font-size: 14px;
+}
+
+a {
+    color: #3071a9;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Menu Left */
+.menu-left .card {
+    border: none;
+    margin-bottom: 0;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.menu-left .card-header {
+    background-color: rgba(38, 58, 83, 0);
+    border-radius: 0 !important;
+    border-bottom: none;
+    padding: .9rem 1.25rem
+}
+
+.menu-left .card-header i {
+    width: 28px;
+    font-size: 1.3rem;
+}
+
+.menu-left .card-header a {
+    color: rgba(255, 255, 255, .9);
+}
+
+.menu-left .card-header h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.menu-left .list-group-item {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-left .list-group-item a {
+    color: rgba(255, 255, 255, .9);
+    font-size: 1rem;
+    padding: 8px 10px;
+    display: block;
+}
+
+.menu-left .list-group {
+    padding-left: 10px;
+}
+
+.menu-left .card-body {
+    padding: 5px 1.25rem;
+    /*background-color: rgba(45, 69, 99, .8);*/
+    background-color: transparent;
+}
+
+.menu-left .card-body i {
+    width: 25px;
+    font-size: 1.2rem;
+}
+
+/* Header */
+.header {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    -webkit-box-shadow: 0 0 0 1px rgba(63, 63, 68, .05), 0 1px 3px 0 rgba(63, 63, 68, .15);
+    box-shadow: 0 0 0 1px rgba(63, 63, 68, .05), 0 1px 3px 0 rgba(63, 63, 68, .15);
+    margin: -30px -30px 30px;
+}
+
+.header::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.logo {
+    height: 50px;
+    margin: 10px 0 10px;
+    background: url("../../images/admin/logo.png") no-repeat center;
+    background-size: contain;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+}
+
+.main-left {
+    position: relative;
+}
+
+.main-left::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(26, 74, 114, .8);
+}
+
+.main-left {
+    background: url("../../images/admin/bg-menu.jpg") left top;
+    background-size: cover;
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    z-index: 1000;
+}
+
+.main-right {
+    width: 100%;
+    padding: 30px 30px 0 270px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .main-left {
+        display: none;
+    }
+
+    .main-right {
+        padding: 20px;
+    }
+}
+
+/* Custom Bootstrap */
+.breadcrumb {
+    background-color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 0 0 0 1px rgba(63, 63, 68, .05), 0 1px 3px 0 rgba(63, 63, 68, .15);
+    margin-bottom: 20px;
+}
+
+.breadcrumb-item.active {
+    color: #333;
+}
+
+.card {
+    border: none;
+    -webkit-box-shadow: 0 0 0 1px rgba(63, 63, 68, .05), 0 1px 3px 0 rgba(63, 63, 68, .15);
+    box-shadow: 0 0 0 1px rgba(63, 63, 68, .05), 0 1px 3px 0 rgba(63, 63, 68, .15);
+    margin-bottom: 20px;
+}
+
+.badge {
+    font-weight: normal;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .025);
+}
+
+.table td, .table th {
+    padding: .6rem;
+}
+
+.table th {
+    font-weight: normal;
+}
+
+.btn-outline-secondary {
+    border-color: #ddd;
+}
+
+/* Custom CKEditor */
+.cke_chrome {
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+}
+
+.cke_path_item, .cke_path_empty {
+    color: #333 !important;
+}
+
+.cke_bottom {
+    background: #f8f8f8 !important;
+}
+
+.cke_resizer {
+    border-color: transparent #888 transparent transparent !important;
+}
+
+.scrollbar-outer {
+    max-height: 200px;
+}
+
+/* Custom */
+.label-radio {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.label-radio input[type="radio"] {
+    display: none;
+}
+
+.label-radio input[type="radio"] + span::after {
+    border-radius: 100%;
+    content: ' ';
+    height: 8px;
+    width: 8px;
+    display: block;
+}
+
+.label-radio input[type="radio"]:checked + span::after {
+    background-color: #007bff;
+}
+
+.label-radio input[type="radio"] + span {
+    display: inline-block;
+    margin: -3px 3px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid #c4cdd5;
+    border-radius: 100%;
+}
+
+.label-radio input[type="radio"]:checked + span {
+    border: 1px solid #007bff;
+    border-radius: 100%;
+}
+
+/* Upload File */
+.upload-image {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    width: 100%;
+    min-height: 100px;
+    border: 2px dashed #ddd;
+    padding: 3px;
+    position: relative;
+}
+
+.upload-image::after {
+    font: normal normal normal 5em FontAwesome;
+    padding-top: 12px;
+    text-align: center;
+    content: "\f03e";
+    color: #efefef;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.upload-image input[type=file] {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.upload-image a#image-close {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 7px;
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+}
+
+.upload-image img {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    position: relative;
+}
+
+/* jquery-ui */
+.widget-item-old {
+    border: 1px dashed #ddd;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    height: 45px;
+}
+
+.widget-item {
+    border: 1px solid #dee2e6;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #fafafa;
+    cursor: move;
+    height: 45px;
+    z-index: 9999;
+}
+
+.draggable-holder-hover {
+    box-shadow: 0 0 0 2px skyblue !important;
+}
+
+.dropdown-menu.show {
+    transform: none !important;
+    top: -1px !important;
+}
+
+.ui-state-default {
+    border: none !important;
+    background: #ffffff !important;
+}
+
+/* Placeholder */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, .3) !important;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(0, 0, 0, .3) !important;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(0, 0, 0, .3) !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(0, 0, 0, .3) !important;
+}

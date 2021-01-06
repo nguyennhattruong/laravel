@@ -1,0 +1,126 @@
+.articles_card {
+    position: relative;
+}
+
+.articles {
+    margin-top: 15px;
+}
+
+.articles:first-child {
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.article-light .articles_card {
+    background-color: #ffffff;
+    padding: 12px;
+}
+
+.article-black-opacity .articles_card {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 12px;
+    color: white;
+}
+
+.articles:after {
+    content: '';
+    display: block;
+    clear: both;
+    padding-top: 15px;
+    border-bottom: 1px dashed rgba(0, 0, 0, .15);
+}
+
+.articles:last-child::after {
+    border-bottom: 0;
+}
+
+.articles_img {
+    width: 40%;
+    max-width: 140px;
+    float: left;
+    margin-right: 15px;
+}
+
+.articles img {
+    width: 100%;
+    margin-bottom: 0;
+    transition-duration: .5s;
+}
+
+.articles img:hover {
+    opacity: 0.75;
+}
+
+.articles_img_responsive {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.articles header h3 {
+    font-size: 1rem;
+}
+
+.articles p {
+    margin-bottom: 0;
+}
+
+.articles-price-tag {
+    width: 95px;
+    height: 27px;
+    background: url("../../images/price-tag.png") no-repeat center;
+    position: absolute;
+    top: 20px;
+    right: -7px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.article-modern header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 5px 10px;
+}
+
+.article-modern header a {
+    color: #ffffff;
+}
+
+/* Responsive */
+@media only screen and (min-width: 576px) {
+    article.articles_many_cols {
+        border-top: 0;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .articles:last-child:after {
+        /*border-bottom: 1px dashed rgba(0, 0, 0, .15);*/
+    }
+}
+
+.header-line {
+    position: relative;
+}
+
+.header-line span {
+    display: inline-block;
+    background-color: inherit;
+    z-index: 2;
+    position: relative;
+    padding-right: 10px;
+}
+
+.header-line::after {
+    content: ' ';
+    border: 2px solid #F44336;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}

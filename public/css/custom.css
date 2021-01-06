@@ -1,0 +1,172 @@
+/*****************************************
+ *            Custom Effect              *
+ *****************************************/
+.effect-img a img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.effect-img a:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*****************************************
+ *            Custom Hover               *
+ *****************************************/
+.hvr-underline-from-center {
+    overflow: visible;
+}
+
+.hvr-underline-from-center:before {
+    background: #555;
+    height: 2px;
+}
+
+/*****************************************
+ *            Custom Slick               *
+ *****************************************/
+.slick-dots li button::before {
+    font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #2196F3;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #2196F3;
+}
+
+.slick-dots {
+    bottom: -35px;
+}
+
+/*****************************************
+ *           Custom Superfish            *
+ *****************************************/
+.sf-vertical {
+    width: 100%;
+}
+
+.sf-menu li {
+    background: transparent;
+}
+
+.sf-menu > li > a {
+    /*padding-left: 0;*/
+}
+h2.font-oswald.color-orange {
+    text-align: center;
+}
+.sf-menu a {
+    border: 0;
+    color: unset;
+}
+
+.sf-vertical.sf-arrows > li > .sf-with-ul:after {
+    border-left-color: #888;
+}
+
+.sf-arrows .sf-with-ul:after {
+    border-top-color: #888;
+}
+
+.sf-menu ul li {
+    background: #fff;
+}
+
+.sf-menu ul ul li {
+    background: #fff;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    border-left-color: #888;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover {
+    background: #fff;
+    color:red !important;
+}
+
+
+
+
+.sf-menu li a:hover {
+    color:red !important;
+}
+/* Fix */
+.carousel-control-prev, .carousel-control-next {
+    z-index: 3;
+}
+
+/*****************************************
+ *            Custom iHover              *
+ *****************************************/
+.ih-item.square {
+    position: relative;
+    width: unset;
+    height: unset;
+    border: unset;
+    box-shadow: unset;
+}
+
+.ih-item.square .info {
+    top: 10% !important;
+    width: 100% !important;
+}
+
+.ih-item.square.effect4 a:hover .mask1 {
+    -webkit-transform: rotate(45deg) translateX(0px);
+    -moz-transform: rotate(45deg) translateX(0px);
+    -ms-transform: rotate(45deg) translateX(0px);
+    -o-transform: rotate(45deg) translateX(0px);
+    transform: rotate(45deg) translateX(0px);
+}
+.ih-item.square.effect4 a:hover .mask2 {
+    -webkit-transform: rotate(45deg) translateX(0px);
+    -moz-transform: rotate(45deg) translateX(0px);
+    -ms-transform: rotate(45deg) translateX(0px);
+    -o-transform: rotate(45deg) translateX(0px);
+    transform: rotate(45deg) translateX(0px);
+}
+.ih-item.square.effect4.effect4 a img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.ih-item.square.effect4.effect4 a:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*****************************************
+ *           Custom Bootstrap            *
+ *****************************************/
+.breadcrumb {
+    background-color: transparent;
+    border-bottom: 1px solid #efefef;
+}
+
+.blockquote {
+    font-size: 1rem;
+    font-weight: bold;
+}

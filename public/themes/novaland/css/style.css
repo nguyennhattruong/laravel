@@ -1,0 +1,17 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    background: url("../images/logo.png") top left no-repeat;
+}
+
+.header {
+    background: url("../images/home_slider_01.jpg") center top no-repeat;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}

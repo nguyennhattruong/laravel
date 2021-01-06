@@ -1,0 +1,11 @@
+{
+  "position_template": {
+    "header_left": "header_left",
+    "header_right": "header_right",
+    "body": "body",
+    "category_page": "category_page",
+    "content_page": "content_page",
+    "footer": "footer",
+    "page": "page"
+  }
+}
